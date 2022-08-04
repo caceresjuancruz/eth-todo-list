@@ -1,0 +1,23 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body, html {
+    background-color: #0d1017 !important;
+}
+
+#removeTaskBtn{
+    float: right;
+}
+
+#myTasks{
+    display: inline;
+}
+
+#mainContainer {
+    width: fit-content;
+}
+
+.text-color-grey {
+    color: #d0d0ce;
+}
