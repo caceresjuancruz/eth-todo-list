@@ -102,15 +102,16 @@ const deleteTask = async (_taskId) => {
 };
 
 function startDapp() {
-      
+  
+  metamaskReloadCallback()
+  getContract()
   $(document).on("submit", "form.task", function(e){
       e.preventDefault();
       var val = $("#taskText").val();
       addTask(val);
       setTimeout(function(){ document.getElementById('taskText').value = "";}, 500);
     })
-  metamaskReloadCallback()
-  getContract()  
+    
     
 };
 
