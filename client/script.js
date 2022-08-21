@@ -1,4 +1,4 @@
-const JSON_CONTRACT_PATH = "../artifacts/contracts/Task.sol/TaskContract.json";
+const JSON_CONTRACT_PATH = "./utils/TaskContract.json";
 const rinkebyId = "0x4";
 var TaskAddress = "0xa086D4C8e8Be8538Af615Ce286b2A803094816c4";
 var contract;
